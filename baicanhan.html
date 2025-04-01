@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Cá Nhân</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('https://i.pinimg.com/736x/82/61/56/826156e5ae9473a1159f942a3d1f9d2a.jpg'); /* Thay đổi đường dẫn đến ảnh nền của bạn */
+            background-size: cover;
+            color: #333;
+        }
+
+        
+        .container {
+            width: 80%;
+            margin: auto;
+            background: rgb(244, 220, 238, 0.788);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        header img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            transition: transform 0.3s ease; 
+        }
+        header img:hover {
+            transform: scale(1.2); 
+        }
+        h1 {
+            font-size: 2.5em;
+            margin: 10px 0;
+        }
+        h2 {
+            font-size: 1.8em;
+            color: #333;
+        }
+        section {
+            margin-bottom: 20px;
+        }
+        .section-content {
+            padding: 20px;
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        li {
+            margin: 5px 0;
+        }
+        .skills ul, .experience ul, .projects ul, .education ul {
+            padding-left: 20px;
+        }
+        footer {
+            text-align: center;
+            font-size: 0.8em;
+            color: #666;
+            margin-top: 20px;
+        }
+        footer a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        
+        .row {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+        }
+        .column {
+            flex: 1;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            
+            <img src="https://scontent.fsgn16-1.fna.fbcdn.net/v/t39.30808-1/476277766_993577632631467_7253607737435328105_n.jpg?stp=dst-jpg_s200x200_tt6&_nc_cat=100&ccb=1-7&_nc_sid=e99d92&_nc_eui2=AeE_sVcBrbndeSLtn4cZz4bYfA9yejH_WIJ8D3J6Mf9Ygn7uxOVqFmZUCSPEa3PT4sWuFWxqEriT8L2jvZTyJ3dy&_nc_ohc=Bk7YWg9bHLIQ7kNvgEKS7pU&_nc_oc=AdlPI6uKbs1K5ILXHfngQlEWpt30QfQpQkHubbfyZQsl3uv3KhEE-ZqqH85qQCmjOx-YlcwNbLBX6YLdpopGvxke&_nc_zt=24&_nc_ht=scontent.fsgn16-1.fna&_nc_gid=3V6KXHs8RcrL3cKoNg37wA&oh=00_AYH8v6JGv6lPpeDfQqg8K7MIqQrW9aMFwa8MTgyCf5dYIA&oe=67F11468" alt="Ảnh đại diện">
+            <h1>Lê Dương Thùy An</h1>
+            <p><strong>Chức danh:</strong> Lập trình viên Web</p>
+        </header>
+
+        <section class="about">
+            <h2>Giới thiệu bản thân</h2>
+            <div class="section-content">
+                <p> Giới tính: Nữ | Ngày tháng năm sinh: 27/04/2005 </p>
+            </div>
+        </section>
+
+        <div class="row">
+            <section class="skills column">
+                <h2>Kỹ năng</h2>
+                <div class="section-content">
+                    <ul>
+                        <li>HTML, CSS, JavaScript</li>
+                        <li>Node.js</li>
+                        <li>Git và GitHub</li>
+                        <li>Quản lý dự án</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="experience column">
+                <h2>Kinh nghiệm làm việc</h2>
+                <div class="section-content">
+                    <ul>
+                        <li><strong>Chức danh:</strong> Nhân viên trực thuộc chuỗi cửa hàng tiện lợi FamiyMart (2023-2024)</li>
+                        <li><strong>Chức danh:</strong> Freelancer chuyên lâp trình web( 2024 - 2025)</li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+
+        <div class="row">
+            <section class="projects column">
+                <h2>Dự án</h2>
+                <div class="section-content">
+                    <ul>
+                        <li><strong>Website thời trang:</strong> Trang web thời trang online cho phép khách hàng mua hàng và thanh toán trên trang web.</li>
+                </div>
+            </section>
+
+            <section class="education column">
+                <h2>Học vấn</h2>
+                <div class="section-content">
+                    <ul>
+                        <li><strong>Đại học Bình Dương</strong> - Cử nhân ngành kỹ thuật phần mềm (2023 - 2027)</li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+
+        <section class="contact">
+            <h2>Liên hệ</h2>
+            <div class="section-content">
+                <p>Hotline: 0364855443</p>
+                <p>Email: 23050145@student.bdu.edu.vn</p>
+                <p><a href="https://www.linkedin.com/in/leduongthuyan" target="_blank"></a></p>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; 2025 Lê Dương Thùy An <a href="#">Chính sách bảo mật</a></p>
+        </footer>
+    </div>
+</body>
+</html>
